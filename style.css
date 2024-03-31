@@ -1,0 +1,70 @@
+h1 {
+  color: #fff;
+}
+
+.spin-container {
+  max-width: 800px;
+  border: 1px solid #c0c0c0;
+  padding: 20px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: #8cc152;
+}
+
+.spin {
+  width: 54px;
+  height: 54px;
+  border: 3px solid rgb(42, 41, 41);
+  position: relative;
+  font-size: 45px;
+}
+
+.spin-line {
+	width: 54px;
+	height: 170px;
+	position: relative;
+	top: -54px;
+	background: #cdda49;
+}
+
+.spin-line > div {
+	user-select: none;
+}
+
+button {
+	align-items: center;
+	background-clip: padding-box;
+	background-color: #0da58e;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, .02) 0 1px 3px 0;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-flex;
+	font-size: 16px;
+	font-weight: 600;
+	justify-content: center;
+	line-height: 1.25;
+	margin: 0;
+	min-height: 3rem;
+	padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+	position: relative;
+	text-decoration: none;
+	transition: all 250ms;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: baseline;
+	width: auto;
+}
+
+button:hover {
+	transform: translateY(-1px);
+}
+
+button:active {
+	background-color: #c85000;
+	box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+	transform: translateY(0);
+}
